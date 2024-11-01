@@ -1,0 +1,98 @@
+h1 {
+  color: rgb(116, 9, 56);
+	font-size: 40px;
+	font-family: Helvetica;
+	font-weight: bolder;
+	letter-spacing: 1.5px;
+	font-weight: 400;
+	line-height: 2;
+}
+h2 {
+	color: rgb(204, 43, 82);
+	font-size: 25px;
+	font-weight: normal;
+	font-weight: 300;
+	letter-spacing: 1.0px;
+	line-height: 1.5;
+}
+
+body {
+  font-family: Times, serif;
+	font-size: 15px;
+	line-height: 1.2;
+	letter-spacing: 1px;
+	color: rgb(0, 0, 0);
+	text-align: justify;
+
+	font-weight: lighter;
+	font-weight: 200;
+	background-color: #FFFECB;  /* beige clair*/
+}
+
+@media (max-width 500px) {
+  .container {
+  	  width: 400px;
+  }
+}
+
+@media (max-width 760px) { 
+  .container {
+  	  width: 600px;
+  }
+}
+
+/* Style pour les divs conteneurs */
+        .container {
+            width: 60%;
+            max-width: 600px;
+            background: white;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1);
+            margin: 20px auto; /* Centre le conteneur et ajoute de l'espace entre chaque div */
+            text-align: center; /* Centre le texte et le contenu */
+        }
+        /* Centre l'image */
+        .img-circle {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            font-size: 50px;
+        }
+
+ a {	text-decoration: none;
+      color:rgb(116, 9, 56) 
+    }
+ a:hover {
+ 	text-decoration: underline;
+ }
+
+ .img-circle { border-radius:50%;
+  }
+
+ .shadowed { box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+  }
+ .btn-blue {
+ 	  background-color:#D76C82;
+ 	  color: white;
+ 	  padding: 10px 10px;
+ 	  border-radius: 8px;
+ }
+
+ .btn-blue:hover {   
+   background-color: rgb(116, 9, 56);
+   color: white;
+ }
+
+ .list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+.list-inline i {
+	  font-size: 45px;
+	  color: #D76C82;
+}
